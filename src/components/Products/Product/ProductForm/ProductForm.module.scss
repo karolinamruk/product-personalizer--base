@@ -1,0 +1,20 @@
+@import '../../../../styles/settings.scss';
+
+.sizes,
+.colors {
+  margin-bottom: $base-size * 2;
+}
+
+.optionLabel {
+  margin: $base-size 0;
+}
+
+.button {
+  position: absolute;
+  top: -$base-size * 2;
+  right: -$base-size * 2;
+  font-size: $base-size * 2;
+  border-radius: 100%;
+  width: $base-size * 5;
+  height: $base-size * 5;
+}
